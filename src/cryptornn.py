@@ -10,8 +10,10 @@ from keras.layers import Dense, Dropout, LSTM, BatchNormalization
 from keras.callbacks import TensorBoard, ModelCheckpoint
 
 import os
+import absl.logging
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+absl.logging.set_verbosity(absl.logging.ERROR)
 
 # SECTION: PARAMETERS
 
