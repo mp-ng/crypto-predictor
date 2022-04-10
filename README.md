@@ -1,5 +1,5 @@
 # Crypto-predictor-rnn
-Cryptocurrency Predictor using a RNN, specifically a LSTM.
+Cryptocurrency Predictor using a RNN, specifically an LSTM.
 
 # About the dataset 📈
 The datasets contains information about 4 different cryptocurrencies for the model to run on, specifically:
