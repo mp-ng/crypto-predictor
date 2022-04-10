@@ -60,7 +60,7 @@ def preprocess_df(df, train=True):
 
     # Balance the training set
     if train:
-        balance(sequential_data)
+        sequential_data = balance(sequential_data)
 
     # Train-validation split
     X = []
@@ -86,6 +86,7 @@ def balance(data):
 
     data = buys + sells
     np.random.shuffle(data)
+    return data
 
 
 # SECTION: DATA PREPROCESSING
