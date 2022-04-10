@@ -35,7 +35,7 @@ def classify(current, future):
         return 0
 
 
-def preprocess_df(df, train=True):
+def preprocess_df(df, train):
     df = df.drop(columns="future")
 
     # Normalization
