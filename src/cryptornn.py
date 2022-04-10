@@ -59,8 +59,8 @@ def preprocess_df(df, train=True):
     np.random.shuffle(sequential_data)
 
     # Balance the training set
-    if train:
-        sequential_data = balance(sequential_data)
+    # if train:
+    #   sequential_data = balance(sequential_data)
 
     # Train-validation split
     X = []
